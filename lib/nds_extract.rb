@@ -11,6 +11,10 @@ def directors_totals(nds)
   result = {
   }
   pp nds
+  
+  nds.count.times do |director_index|
+    director = nds[director_index][:name]
+  end
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
