@@ -17,14 +17,14 @@ def directors_totals(nds)
     movies = nds[director_index][:movies]
     profit = 0
     movies.count.times do |movie_index|
-      profit += movie[:worldwide_gross]
+      profit += movies[movie_index][:worldwide_gross]
     end
     result[director] = profit
   end
   result
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
-  # and total up all the
+  # and total up all thes
   # ...
   # ...
   # ...
