@@ -14,6 +14,10 @@ def directors_totals(nds)
   
   nds.count.times do |director_index|
     director = nds[director_index][:name]
+    movies = nds[director_index][:movies]
+    profit = 0
+    movies.count.times do |movie_index|
+    end
   end
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
